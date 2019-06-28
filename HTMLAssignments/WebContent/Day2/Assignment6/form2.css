@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+h1, h3 {
+	color: brown;
+	text-align: center;
+}
+
+table {
+	align-content: center;
+	border: thick dotted red;
+	margin-left: 70pt;
+	padding: 5px 5px 5px 5px;
+}
+
+body {
+	color: blue;
+}
+
+.btn {
+	text-align: center;
+	color: red;
+		padding: 10px 10px 10px 10px;
+	
+	
+}
+button {
+
+	padding: 10px 10px 10px 10px;
+	margin-left: 20pt;
+	color: red;
+	letter-spacing: 8px;
+	
+}
