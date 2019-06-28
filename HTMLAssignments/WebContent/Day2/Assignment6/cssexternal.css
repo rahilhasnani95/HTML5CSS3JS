@@ -1,12 +1,26 @@
-@charset "ISO-8859-1";
-
 h1 {
-	color: brown;
+	color: red;
+	text-align: center;
 }
-th {
-	bgcolor: orange;
+
+table {
+	margin-left: 50px;
 }
+
 tr {
-	bgcolor: pink;
+	font-weight: bold;
+	background-color: orange;
+}
+
+tr.odd {
+	background-color: yellow;
+	color: red;
+	font-weight: normal;
+}
+
+tr.even {
+	background-color: cyan;
+	color: green;
+	font-weight: normal;
 }
 

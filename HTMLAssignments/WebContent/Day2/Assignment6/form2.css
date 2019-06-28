@@ -3,7 +3,9 @@ h1, h3 {
 	color: brown;
 	text-align: center;
 }
-
+select, input {
+	color: red;
+}
 table {
 	align-content: center;
 	border: thick dotted red;
@@ -18,15 +20,6 @@ body {
 .btn {
 	text-align: center;
 	color: red;
-		padding: 10px 10px 10px 10px;
-	
-	
-}
-button {
+	letter-spacing: 5pt;
 
-	padding: 10px 10px 10px 10px;
-	margin-left: 20pt;
-	color: red;
-	letter-spacing: 8px;
-	
 }
