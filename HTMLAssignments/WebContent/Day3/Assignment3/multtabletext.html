@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script language="JavaScript">
+	
+document.write("<table border=\"1\">")
+num = 9;
+document.write("<form>")
+document.write("<th>");
+document.write("X");
+document.write("</th>");
+document.write("<th>");
+document.write("Y");
+document.write("</th>");
+document.write("<th>");
+document.write("X*Y");
+document.write("</th>");
+		for (i = 1; i <=10; i++)
+		{
+			document.write("<tr>");
+			
+			document.write("<td>");
+			document.write(i);
+			document.write("</td>");
+			document.write("<td>");
+			document.write(num);
+			document.write("</td>");
+			document.write("<td>");
+
+			document.write("<input type = \"text\">");
+			document.write(i*num);
+			document.write("</td>");
+
+			document.write("</tr>");
+
+		}
+	document.write("</table>");
+	document.write("</form>")
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

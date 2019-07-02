@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function checkEmpty() {
+		if(document.f1.empno.value.isEmpty())
+			{
+			alert("its empty");
+			}
+	}
+</script>
+
+</head>
+<body>
+<form name="f1">
+Employee Number: <input type="text" name="empno"><br>
+<input type="button" onClick="checkEmpty()">
+
+</form>
+
+</body>
+</html>

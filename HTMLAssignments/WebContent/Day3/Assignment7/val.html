@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background-color: cyan;
+	text-align: center
+}
+form {
+	background-color: yellow;
+	align-content: center;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+	<h1>INFY BANK</h1>
+	<h3>Customer Registration Form</h3>
+	<form name="val">
+
+		Customer Name (*) <input type="text" pattern=".{3,}" name="cusname" required title="Must contain at least 3 or more characters"><br>
+		Date of Birth (*) <input type="number" pattern="[0-9]" name="cusdob" title="Must contain only numbers" required><br>
+		Email (*) <input type="email" name="cusemail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> <br> 
+		(*) Mandatory <input type="submit" value="Submit" name="Submit">
+
+	</form>
+
+</body>
+</html>

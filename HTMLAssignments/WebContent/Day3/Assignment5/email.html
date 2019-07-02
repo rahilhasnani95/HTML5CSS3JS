@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+email = "jack@Imcs.com";
+
+occ1 = email.indexOf("@");
+occ2 = email.indexOf(".");
+
+occ3 = email.lastIndexOf("@");
+
+document.write(occ1 + " " + occ2 + "<br>");
+
+if(occ1 == occ3)
+	{
+	document.write("There is only one @ in email");
+	}
+else
+	{
+	document.write("There is more than one @ in email");
+	}
+
+</script>
+
+
+</body>
+</html>

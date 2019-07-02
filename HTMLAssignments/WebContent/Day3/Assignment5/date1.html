@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+ monthNames = ["January", "February", "March", "April", "May", "June",
+	  "July", "August", "September", "October", "November", "December"
+	];
+
+	 d = new Date();
+	year = d.getYear();
+	day = d.getDate();
+	
+	
+	//document.write("The current month is " + monthNames[d.getMonth()]);	
+
+	
+	document.write(day + "-" + monthNames[d.getMonth()] + "-" + year);
+</script>
+
+</body>
+</html>

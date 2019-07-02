@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var arr = new Array(10,2,68,66,33,88,22,7);
+
+min = arr[0];
+max = arr[arr.length-1];
+for(i = 0; i < arr.length; i++)
+	{
+	if(arr[i] < min)
+		{
+			min = arr[i]
+		}
+	if(arr[i] > max)
+	{
+		max = arr[i];
+	}
+	
+	}
+	document.write("Min: " + min + "\n");
+	document.write("Max: " + max)
+
+</script>
+
+</body>
+</html>

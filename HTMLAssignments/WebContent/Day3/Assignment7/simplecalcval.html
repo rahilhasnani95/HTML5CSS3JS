@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	
+
+	function add() {
+		n1 = document.form2.num1.value;
+		n2 = document.form2.num2.value;
+		
+		if (!isFinite(n1)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		if (!isFinite(n2)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		else {
+			res = parseInt(n1) + parseInt(n2);
+			document.form2.result.value = res;
+		}
+		
+	}
+
+	function sub() {
+		n1 = document.form2.num1.value;
+		n2 = document.form2.num2.value;
+		if (!isFinite(n1)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		if (!isFinite(n2)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		else {
+			res = parseInt(n1) - parseInt(n2);
+			document.form2.result.value = res;
+		}
+	}
+
+	function mul() {
+		n1 = document.form2.num1.value;
+		n2 = document.form2.num2.value;
+		if (!isFinite(n1)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		if (!isFinite(n2)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		else {
+			res = parseInt(n1) * parseInt(n2);
+			document.form2.result.value = res;
+		}
+	}
+
+	function div() {
+		n1 = document.form2.num1.value;
+		n2 = document.form2.num2.value;
+		if (!isFinite(n1)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		if (!isFinite(n2)) {
+			alert("Please enter a number!");
+			return false;
+		}
+		else {
+			res = parseInt(n1) / parseInt(n2);
+			document.form2.result.value = res;
+		}
+	}
+</script>
+
+
+</head>
+<body>
+
+	<form name="form2">
+
+		<input type="text" name="num1" value="0"><br> <input
+			type="text" name="num2" value="0"><br> <input
+			type="text" name="result" value="0"><br> <input
+			type="button" name="Add" value="add" onclick="add()"> <input
+			type="button" name="Subtract" value="subtract" onclick="sub()">
+		<input type="button" name="Multiply" value="multiply" onclick="mul()">
+		<input type="button" name="divide" value="divide" onclick="div()">
+
+
+	</form>
+
+</body>
+</html>
